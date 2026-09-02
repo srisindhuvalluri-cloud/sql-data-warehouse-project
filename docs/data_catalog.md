@@ -6,6 +6,7 @@ The Gold layer is the business-level data representation, structured to support 
 tables</b> and <b>fact tables</b> for specific business metrics.
 <hr />
 1. gold.dim_customers 
+
    - **Purpose:** Stores customer details enriched with demographic and geographic data
    - **Columns:**
 
@@ -23,6 +24,7 @@ tables</b> and <b>fact tables</b> for specific business metrics.
 | create_date | DATE | The date and time when the customer record was created in the system. |
 
 2. gold.dim_products
+   
    - **Purpose:** Provides information about the products and their attributes.
    - **Columns:**
 
